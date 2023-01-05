@@ -1,0 +1,288 @@
+$comment
+	File created using the following command:
+		vcd file verilog_practice.msim.vcd -direction
+$end
+$date
+	Wed Dec 28 21:39:16 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module asu_vlg_vec_tst $end
+$var reg 1 ! i_cin $end
+$var reg 4 " i_x [3:0] $end
+$var reg 4 # i_y [3:0] $end
+$var wire 1 $ o_count $end
+$var wire 1 % o_neg $end
+$var wire 1 & o_overflow $end
+$var wire 1 ' o_s [3] $end
+$var wire 1 ( o_s [2] $end
+$var wire 1 ) o_s [1] $end
+$var wire 1 * o_s [0] $end
+$var wire 1 + sampler $end
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 i_cin~combout $end
+$var wire 1 3 Add0~1_cout $end
+$var wire 1 4 Add0~2_combout $end
+$var wire 1 5 Add2~1_cout $end
+$var wire 1 6 Add2~2_combout $end
+$var wire 1 7 Add2~4_combout $end
+$var wire 1 8 Add2~3 $end
+$var wire 1 9 Add2~5_combout $end
+$var wire 1 : Add0~3 $end
+$var wire 1 ; Add0~4_combout $end
+$var wire 1 < Add2~7_combout $end
+$var wire 1 = Add0~5 $end
+$var wire 1 > Add0~6_combout $end
+$var wire 1 ? Add2~6 $end
+$var wire 1 @ Add2~8_combout $end
+$var wire 1 A Add2~10_combout $end
+$var wire 1 B Add0~7 $end
+$var wire 1 C Add0~8_combout $end
+$var wire 1 D Add2~9 $end
+$var wire 1 E Add2~11_combout $end
+$var wire 1 F Add2~13_combout $end
+$var wire 1 G Add2~12 $end
+$var wire 1 H Add2~14_combout $end
+$var wire 1 I Add0~9 $end
+$var wire 1 J Add0~10_combout $end
+$var wire 1 K Add2~16_combout $end
+$var wire 1 L o_overflow~0_combout $end
+$var wire 1 M oneg_temp~0_combout $end
+$var wire 1 N i_y~combout [3] $end
+$var wire 1 O i_y~combout [2] $end
+$var wire 1 P i_y~combout [1] $end
+$var wire 1 Q i_y~combout [0] $end
+$var wire 1 R i_x~combout [3] $end
+$var wire 1 S i_x~combout [2] $end
+$var wire 1 T i_x~combout [1] $end
+$var wire 1 U i_x~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b1 "
+b1 #
+0$
+0%
+0&
+0*
+1)
+0(
+0'
+x+
+0,
+1-
+x.
+1/
+10
+11
+02
+03
+14
+05
+06
+07
+08
+19
+1:
+1;
+1<
+0=
+1>
+0?
+0@
+0A
+1B
+1C
+1D
+0E
+0F
+0G
+0H
+0I
+1J
+0K
+0L
+0M
+1Q
+0P
+0O
+0N
+1U
+0T
+0S
+0R
+$end
+#20000
+1!
+b11 "
+b1001 #
+b1011 #
+b1010 #
+12
+0Q
+1P
+1N
+1T
+0+
+1M
+1K
+1F
+1A
+17
+15
+13
+18
+16
+0:
+04
+1?
+1L
+1E
+0C
+08
+06
+14
+09
+07
+1=
+0;
+1@
+0F
+0M
+1%
+1$
+1'
+1(
+1*
+1&
+19
+17
+0<
+0B
+0>
+0L
+0*
+0'
+0%
+1C
+0A
+1*
+0)
+0&
+1M
+1F
+0(
+1L
+1%
+1'
+1&
+#50000
+b1 "
+b10 #
+b0 #
+b1 #
+1Q
+0P
+0N
+0T
+1+
+16
+04
+0?
+0L
+0E
+1I
+0C
+07
+0@
+0F
+0J
+0M
+0&
+1L
+0K
+0*
+0'
+0%
+0L
+1&
+0$
+0&
+#80000
+0!
+02
+0+
+1<
+17
+05
+03
+06
+1:
+14
+1)
+1*
+07
+0=
+1;
+1B
+1>
+0*
+0I
+1C
+1J
+#150000
+1!
+12
+1+
+1M
+1K
+1F
+1A
+17
+15
+13
+16
+0:
+04
+1%
+1$
+1'
+1(
+1*
+07
+1=
+0;
+0B
+0>
+0<
+0*
+1I
+0C
+0A
+0)
+0J
+0M
+0F
+0(
+0K
+1L
+0%
+0'
+0L
+0$
+1&
+0&
+#160000

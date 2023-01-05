@@ -1,0 +1,17 @@
+module dff (Q,D, clr, clk);
+
+input D;
+input clk;
+input clr;
+
+
+output Q;
+
+always @(posedge clk)
+	begin
+		if (clr)
+			Q<=D;
+		else
+			Q=1'b0;
+	
+	end

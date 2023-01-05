@@ -1,0 +1,26 @@
+module mux1to4 (
+	i_w0,
+	i_w1,
+	i_w2,
+	i_w3,
+	i_s0,
+	i_s1,
+	o_f);
+
+input i_w0;
+input i_w1;
+input i_w2;
+input i_w3;
+input i_s0;
+input i_s1;
+
+output o_f;
+
+if (i_s0=1'b0 && i_s1=1'b0) assign o_f = i_w0;
+if (i_s0=1'b0 && i_s1=1'b1) assign o_f = i_w1;
+if (i_s0=1'b1 && i_s1=1'b0) assign o_f = i_w2;
+if (i_s0=1'b1 && i_s1=1'b1) assign o_f = i_w3;
+
+endmodule
+	
+	
